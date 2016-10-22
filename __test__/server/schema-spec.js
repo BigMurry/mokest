@@ -51,6 +51,8 @@ describe('json object convert to graphQL schema', function(){
       },
     };
 
+    const graphQLSchema = convert.getSchema(schema);
+
 
 
   });
